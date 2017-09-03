@@ -6,7 +6,7 @@ use SimpleBus\RabbitMQBundleBridge\DependencyInjection\Compiler\AdditionalProper
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 
-class AdditionalPropertiesResolverPassTest extends \PHPUnit_Framework_TestCase
+class AdditionalPropertiesResolverPassTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var ContainerBuilder

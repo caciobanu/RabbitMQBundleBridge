@@ -54,11 +54,11 @@ services:
 old_sound_rabbit_mq:
     connections:
         default:
-            host:     'localhost'
+            host:     'preview-advertising-api.jcid.nl'
             port:     5672
-            user:     'guest'
-            password: 'guest'
-            vhost:    '/'
+            user:     'advertising'
+            password: 'JtkkopZDkxasUzHeHYGSuFaEYdBpig'
+            vhost:    '/advertising'
             lazy:     true
     producers:
         asynchronous_events:

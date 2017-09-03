@@ -170,7 +170,7 @@ class SimpleBusRabbitMQBundleTest extends KernelTestCase
      */
     private function messageDummy()
     {
-        return $this->getMock('SimpleBus\Message\Message');
+        return $this->createMock('SimpleBus\Message\Message');
     }
 
     /**
